@@ -12,15 +12,16 @@ body {
      height: 693px;
     background-position: right;
   }
-  .container {
-    width: 1440px;
-    height: 1000px;
+  .container {   
+    height: 693px;
+    margin-left: 135px;
+    margin-right: 135px;
 }
   .nav {
     width: 100%;
     font-family: 'Roboto';
     display: flex;
-    justify-content: space-around;     
+    justify-content: space-between;     
   }
 
 .nav ul,
@@ -31,6 +32,24 @@ li {
 a {
     text-decoration: none;  
   }
+
+h1 {
+  font-family: 'Poppins';
+  width: 613px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  margin-top: 148px;
+  
+}
+
+h2 {
+  font-size: 32.25px;
+}
+
+h3 {
+  font-size: 20px;
+}
 .nav a{
     color: #170C04;
 }
@@ -65,9 +84,50 @@ font-weight: bold;
 }
 .menu-icons {
     padding: 0;
-    margin-top: 41px;
-    margin-left: -175px;
+    margin-top: 41px;    
 }
 .menu-icons li {
     margin-right: 40px;
+}
+.content {
+  display: flex;
+}
+.btns {
+  width: 292px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+  background-color: #E27B3A; 
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-two {
+  background-color: white; 
+    border-radius: 24px;
+    border: 1px solid #E27B3A;
+    color: #E27B3A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.dog-pic {
+  background: url('img/Pug-puppy-standing-in-profile-on-a-white-background\ \(1\)\ 1.png') no-repeat;
+  mix-blend-mode: darken;
+  background-size: cover;
+  width: 900px;
+  height: 611px;
+  position: absolute;
+  top: 82px;
+  left: 482px;
+  
 }

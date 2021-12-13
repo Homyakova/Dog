@@ -7,11 +7,17 @@ body {
     ;
     font-size: 16px;
   }
+  .header {
+    background: url('img/Rectangle\ 71.jpg') no-repeat; 
+     height: 693px;
+    background-position: right;
+  }
   .container {
-    width: 1300px;
+    width: 1440px;
     height: 1000px;
 }
   .nav {
+    width: 100%;
     font-family: 'Roboto';
     display: flex;
     justify-content: space-around;     
@@ -30,8 +36,7 @@ a {
 }
 .menu-logo {
     padding: 0;
-    margin-top: 31px;
-    margin-left: 178px;
+    margin-top: 31px;   
 }
 .dog {
     margin-left: 5px;
@@ -48,8 +53,7 @@ font-weight: bold;
 
 .menu-list {
     padding: 0;
-    margin-top: 41px;
-    margin-left: 291px;
+    margin-top: 41px;  
 }
 
 .menu-list li {
@@ -62,7 +66,7 @@ font-weight: bold;
 .menu-icons {
     padding: 0;
     margin-top: 41px;
-    margin-left: 235px;
+    margin-left: -175px;
 }
 .menu-icons li {
     margin-right: 40px;

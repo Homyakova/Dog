@@ -1,145 +1,140 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: #170C04;
-    ;
-    font-size: 16px;
-  }
-  .header {
-    background: url('img/Rectangle\ 71.jpg') no-repeat; 
-     height: 693px;
-    background-position: right;
-  }
-  .container {   
-    height: 693px;
-    margin-left: 135px;
-    margin-right: 135px;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #170c04;
+  font-size: 16px;
 }
-  .nav {
-    width: 100%;
-    font-family: 'Roboto';
-    display: flex;
-    justify-content: space-between;     
-  }
+.header {
+  background: url("img/Rectangle\ 71.jpg") no-repeat;
+  height: 693px;
+  background-position: right;
+}
+.container {
+  height: 693px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.nav {
+  width: 100%;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
 
 .nav ul,
 li {
-  display: flex;  
-   
+  display: flex;
 }
 a {
-    text-decoration: none;  
-  }
+  text-decoration: none;
+}
 
 h1 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   width: 613px;
   font-weight: 900;
   font-size: 100px;
   line-height: 120px;
   margin-top: 148px;
-  
 }
 
 h2 {
   font-size: 32.25px;
-  font-family: 'Poppins';
-
+  font-family: "Poppins";
 }
 
 h3 {
   font-size: 25px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   text-align: center;
 }
 h4 {
   font-size: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 p {
-  font-family: 'Roboto';
-  
-color: #170C04;
+  font-family: "Roboto";
 
-opacity: 0.6;
+  color: #170c04;
 
-
+  opacity: 0.6;
 }
-.nav a{
-    color: #170C04;
+.nav a {
+  color: #170c04;
 }
 .menu-logo {
-    padding: 0;
-    margin-top: 31px;   
+  padding: 0;
+  margin-top: 31px;
 }
 .dog {
-    margin-left: 5px;
-    margin-top: 8px;
+  margin-left: 5px;
+  margin-top: 8px;
 }
 
-.menu-logo li {   
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-text-transform: uppercase;
-font-weight: bold;
-  }
+.menu-logo li {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .menu-list {
-    padding: 0;
-    margin-top: 41px;  
+  padding: 0;
+  margin-top: 41px;
 }
 
 .menu-list li {
-    width: 66px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-right: 55px;
+  width: 66px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 55px;
 }
 .menu-icons {
-    padding: 0;
-    margin-top: 41px;    
+  padding: 0;
+  margin-top: 41px;
 }
 .menu-icons li {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 .content {
   display: flex;
 }
 .btns {
-  width: 292px;
-    height: 48px;
-    display: flex;
-    justify-content: space-between;
+  width: 303px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 .btn {
-  background-color: #E27B3A; 
-    border-radius: 24px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #e27b3a;
+  border-radius: 24px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 .btn-two {
-  background-color: white; 
-    border-radius: 24px;
-    border: 1px solid #E27B3A;
-    color: #E27B3A;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: white;
+  border-radius: 24px;
+  border: 1px solid #e27b3a;
+  color: #e27b3a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .dog-pic {
-  background: url('img/Pug-puppy-standing-in-profile-on-a-white-background\ \(1\)\ 1.png') no-repeat;
+  background: url("img/Pug-puppy-standing-in-profile-on-a-white-background\ \(1\)\ 1.png")
+    no-repeat;
   mix-blend-mode: darken;
   background-size: cover;
   width: 900px;
@@ -147,7 +142,6 @@ font-weight: bold;
   position: absolute;
   top: 82px;
   left: 482px;
-  
 }
 .cards {
   display: flex;
@@ -156,13 +150,12 @@ font-weight: bold;
 .card {
   width: 360px;
   height: 241px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 8px;
   margin-top: 160px;
   text-align: center;
-
 }
 .card h3 {
   width: 310px;
@@ -176,18 +169,18 @@ font-weight: bold;
   margin-top: -16px;
 }
 .details-btn {
-  color: #E27B3A;
+  color: #e27b3a;
   line-height: 24px;
 }
 .one-card-img {
-  background: url('img/Vector.png') no-repeat;
-  Width: 63px;
-Height: 54px; 
-margin-top: -227px;
-margin-left: 141px;
+  background: url("img/Vector.png") no-repeat;
+  width: 63px;
+  height: 54px;
+  margin-top: -227px;
+  margin-left: 141px;
 }
 .one-card-img-food {
-  background: url('img/images\ 1.png') no-repeat;
+  background: url("img/images\ 1.png") no-repeat;
   width: 37px;
   height: 37px;
   mix-blend-mode: darken;
@@ -195,14 +188,14 @@ margin-left: 141px;
   margin-left: 154px;
 }
 .sec-card-img {
-  background: url('img/Vector-1.png') no-repeat;
-  Width: 63px;
-Height: 54px; 
-margin-top: -227px;
-margin-left: 141px;
+  background: url("img/Vector-1.png") no-repeat;
+  width: 63px;
+  height: 54px;
+  margin-top: -227px;
+  margin-left: 141px;
 }
 .sec-card-img-food {
-  background: url('img/yora_kibble_bowl_xl_2\ 1.png') no-repeat;
+  background: url("img/yora_kibble_bowl_xl_2\ 1.png") no-repeat;
   width: 53px;
   height: 53px;
   mix-blend-mode: darken;
@@ -210,14 +203,14 @@ margin-left: 141px;
   margin-left: 146px;
 }
 .th-card-img {
-  background: url('img/Vector-2.png') no-repeat;
-  Width: 63px;
-Height: 54px; 
-margin-top: -227px;
-margin-left: 141px;
+  background: url("img/Vector-2.png") no-repeat;
+  width: 63px;
+  height: 54px;
+  margin-top: -227px;
+  margin-left: 141px;
 }
 .th-card-img-food {
-  background: url('img/0002310001301_1_A1C1_1200\ 1.png') no-repeat;
+  background: url("img/0002310001301_1_A1C1_1200\ 1.png") no-repeat;
   width: 36px;
   height: 36px;
   mix-blend-mode: darken;
@@ -228,7 +221,7 @@ margin-left: 141px;
   text-align: center;
 }
 .products-text h2 {
-margin-top: 118px;
+  margin-top: 118px;
 }
 .products-text p {
   width: 505px;
@@ -240,48 +233,48 @@ margin-top: 118px;
 }
 .product-one {
   width: 555px;
-height: 420px;
-left: 182px;
-top: 1361px;
-background: #FCF2EB;
-border-radius: 20px;
-margin-top: 25px;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 420px;
+  left: 182px;
+  top: 1361px;
+  background: #fcf2eb;
+  border-radius: 20px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.product-one-img
-{
-  background: url('img/Harness-Lead-Leash-MediumLarge-Blue\ 1.png') no-repeat;
-width: 373px;
-height: 278px;
-mix-blend-mode: darken;
+.product-one-img {
+  background: url("img/Harness-Lead-Leash-MediumLarge-Blue\ 1.png") no-repeat;
+  width: 373px;
+  height: 278px;
+  mix-blend-mode: darken;
 }
-.product-sec{
+.product-sec {
   width: 555px;
-height: 420px;
-left: 182px;
-top: 1361px;
-background: #FCF2EB;
-border-radius: 20px;
-margin-top: 25px;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 420px;
+  left: 182px;
+  top: 1361px;
+  background: #fcf2eb;
+  border-radius: 20px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .product-sec-img {
-  background: url('img/Reflective-dog-collar-1_1200x1200\ 1.png') no-repeat;
+  background: url("img/Reflective-dog-collar-1_1200x1200\ 1.png") no-repeat;
   width: 304px;
-height: 304px;
-mix-blend-mode: darken;
+  height: 304px;
+  mix-blend-mode: darken;
 }
 .product-one-content {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 .product-one-text {
-  text-align: center;} 
+  text-align: center;
+}
 
 .product-cards-two {
   display: flex;
@@ -293,70 +286,193 @@ mix-blend-mode: darken;
 
 .product-three {
   width: 360px;
-height: 273px;
-left: 182px;
-top: 1940px;
-margin-top: 66px;
-background: #FCF2EB;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 273px;
+  left: 182px;
+  top: 1940px;
+  margin-top: 66px;
+  background: #fcf2eb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  
 
 .product-four {
   width: 360px;
-height: 273px;
-left: 182px;
-top: 1940px;
-margin-top: 66px;
-background: #FCF2EB;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 273px;
+  left: 182px;
+  top: 1940px;
+  margin-top: 66px;
+  background: #fcf2eb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  
 
 .product-five {
   width: 360px;
-height: 273px;
-left: 182px;
-top: 1940px;
-margin-top: 66px;
-background: #FCF2EB;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-}  
+  height: 273px;
+  left: 182px;
+  top: 1940px;
+  margin-top: 66px;
+  background: #fcf2eb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.product-three-img
-{
-  background: url('img/2075_SLT_FR__50984\ 1.png') no-repeat;
+.product-three-img {
+  background: url("img/2075_SLT_FR__50984\ 1.png") no-repeat;
   width: 292px;
   height: 292px;
-mix-blend-mode: darken;
+  mix-blend-mode: darken;
 }
 .product-four-img {
-  background: url('img/81ud4pbkltL\ 1.png') no-repeat;
+  background: url("img/81ud4pbkltL\ 1.png") no-repeat;
   width: 195px;
-height: 177px;
-mix-blend-mode: darken;
+  height: 177px;
+  mix-blend-mode: darken;
 }
 .product-five-img {
-  background: url('img/Rectangle\ 55.png');
+  background: url("img/Rectangle\ 55.png");
   width: 262px;
-height: 170px;
-mix-blend-mode: darken;
-border-radius: 5px;
+  height: 170px;
+  mix-blend-mode: darken;
+  border-radius: 5px;
 }
 .product-three-content {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 .product-three-text {
   text-align: center;
+}
+.care-img {
+  background: url("img/Mask\ Group.png");
+  background-size: cover;
+  width: 664px;
+  height: 556px;
+}
+.all-products {
+  text-align: center;
+  margin-top: 58px;
+}
+.dog-care {
+  display: flex;
+}
+.care-text {
+  margin-top: 140px;
+}
+.container-care {
+  height: 540px;
+  margin-top: 1120px;
+  margin-left: 91px;
+  margin-right: 178px;
+}
+
+.care-one {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e27b3a;
+  opacity: 0.8;
+}
+.care-text p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -15px;
+}
+.care-text h2 {
+  margin-top: -15px;
+}
+.btns-two {
+  margin-top: 52px;
+}
+
+.btn {
+  background-color: #e27b3a;
+  border-radius: 24px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-two {
+  background-color: white;
+  border-radius: 24px;
+  border: 1px solid #e27b3a;
+  color: #e27b3a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.subscription-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 116px;
+}
+.subscription h2 {
+  font-style: normal;
+  line-height: 45px;
+  text-align: center;
+  width: 475px;
+  height: 93px;
+}
+.dog-pic-one {
+  background: url("img/Vector\ \(2\).png") no-repeat;
+  width: 307px;
+  height: 264px;
+  margin-top: 36px;
+  margin-left: 25px;
+}
+.subscription-content {
+  display: flex;
+  justify-content: space-around;
+}
+.subscription-text {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.subscription-text h4 {
+  line-height: 28px;
+  text-align: center;
+  width: 360px;
+  margin-top: 50px;
+}
+.subscription-text p {
+  width: 359px;
+  text-align: center;
+  margin-top: -10px;
+}
+.dog-pic-two {
+  background: url("img/Vector-1\ \(2\).png") no-repeat;
+  width: 307px;
+  height: 264px;
+  margin-top: 36px;
+  margin-left: 25px;
+}
+.dog-pic-three {
+  background: url("img/Vector-2\ \(2\).png") no-repeat;
+  width: 307px;
+  height: 264px;
+  margin-top: 36px;
+  margin-left: 25px;
+}
+.subscription-text a {
+  text-align: center;
+}
+.subscription-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
 }

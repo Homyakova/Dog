@@ -45,10 +45,28 @@ h1 {
 
 h2 {
   font-size: 32.25px;
+  font-family: 'Poppins';
+
 }
 
 h3 {
+  font-size: 25px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  text-align: center;
+}
+h4 {
   font-size: 20px;
+  font-family: 'Poppins';
+}
+p {
+  font-family: 'Roboto';
+  
+color: #170C04;
+
+opacity: 0.6;
+
+
 }
 .nav a{
     color: #170C04;
@@ -130,4 +148,215 @@ font-weight: bold;
   top: 82px;
   left: 482px;
   
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 360px;
+  height: 241px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 160px;
+  text-align: center;
+
+}
+.card h3 {
+  width: 310px;
+  margin-left: 25px;
+}
+.card p {
+  text-align: center;
+  line-height: 24px;
+  width: 298px;
+  margin-left: 30px;
+  margin-top: -16px;
+}
+.details-btn {
+  color: #E27B3A;
+  line-height: 24px;
+}
+.one-card-img {
+  background: url('img/Vector.png') no-repeat;
+  Width: 63px;
+Height: 54px; 
+margin-top: -227px;
+margin-left: 141px;
+}
+.one-card-img-food {
+  background: url('img/images\ 1.png') no-repeat;
+  width: 37px;
+  height: 37px;
+  mix-blend-mode: darken;
+  margin-top: -44px;
+  margin-left: 154px;
+}
+.sec-card-img {
+  background: url('img/Vector-1.png') no-repeat;
+  Width: 63px;
+Height: 54px; 
+margin-top: -227px;
+margin-left: 141px;
+}
+.sec-card-img-food {
+  background: url('img/yora_kibble_bowl_xl_2\ 1.png') no-repeat;
+  width: 53px;
+  height: 53px;
+  mix-blend-mode: darken;
+  margin-top: -52px;
+  margin-left: 146px;
+}
+.th-card-img {
+  background: url('img/Vector-2.png') no-repeat;
+  Width: 63px;
+Height: 54px; 
+margin-top: -227px;
+margin-left: 141px;
+}
+.th-card-img-food {
+  background: url('img/0002310001301_1_A1C1_1200\ 1.png') no-repeat;
+  width: 36px;
+  height: 36px;
+  mix-blend-mode: darken;
+  margin-top: -44px;
+  margin-left: 154px;
+}
+.products-text {
+  text-align: center;
+}
+.products-text h2 {
+margin-top: 118px;
+}
+.products-text p {
+  width: 505px;
+  margin-left: 326px;
+}
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.product-one {
+  width: 555px;
+height: 420px;
+left: 182px;
+top: 1361px;
+background: #FCF2EB;
+border-radius: 20px;
+margin-top: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.product-one-img
+{
+  background: url('img/Harness-Lead-Leash-MediumLarge-Blue\ 1.png') no-repeat;
+width: 373px;
+height: 278px;
+mix-blend-mode: darken;
+}
+.product-sec{
+  width: 555px;
+height: 420px;
+left: 182px;
+top: 1361px;
+background: #FCF2EB;
+border-radius: 20px;
+margin-top: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.product-sec-img {
+  background: url('img/Reflective-dog-collar-1_1200x1200\ 1.png') no-repeat;
+  width: 304px;
+height: 304px;
+mix-blend-mode: darken;
+}
+.product-one-content {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-one-text {
+  text-align: center;} 
+
+.product-cards-two {
+  display: flex;
+  justify-content: space-around;
+}
+.product-one-text h3 {
+  font-weight: bold;
+}
+
+.product-three {
+  width: 360px;
+height: 273px;
+left: 182px;
+top: 1940px;
+margin-top: 66px;
+background: #FCF2EB;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  
+
+.product-four {
+  width: 360px;
+height: 273px;
+left: 182px;
+top: 1940px;
+margin-top: 66px;
+background: #FCF2EB;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  
+
+.product-five {
+  width: 360px;
+height: 273px;
+left: 182px;
+top: 1940px;
+margin-top: 66px;
+background: #FCF2EB;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}  
+
+.product-three-img
+{
+  background: url('img/2075_SLT_FR__50984\ 1.png') no-repeat;
+  width: 292px;
+  height: 292px;
+mix-blend-mode: darken;
+}
+.product-four-img {
+  background: url('img/81ud4pbkltL\ 1.png') no-repeat;
+  width: 195px;
+height: 177px;
+mix-blend-mode: darken;
+}
+.product-five-img {
+  background: url('img/Rectangle\ 55.png');
+  width: 262px;
+height: 170px;
+mix-blend-mode: darken;
+border-radius: 5px;
+}
+.product-three-content {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-three-text {
+  text-align: center;
 }

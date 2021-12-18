@@ -641,7 +641,6 @@ p {
 }
 .quotes-two {
   background: url("img/Group\ \(1\).png") no-repeat;
-  width: 40, 8px;
   height: 37px;
   margin-top: -49px;
   margin-left: 480px;
@@ -713,7 +712,6 @@ input[type="text"] {
   height: 70px;
   background: #e27b3a;
   border-radius: 0px 10px 10px 0px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -722,7 +720,6 @@ input[type="text"] {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-
   position: absolute;
   top: 0;
   right: 0;
@@ -734,4 +731,45 @@ input[type="text"] {
 }
 .button a {
   color: white;
+}
+.footer {
+  margin-top: 1800px;
+}
+.footer-bg {
+  background: url("img/Rectangle\ 73.png") no-repeat;
+  height: 363px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-first-block p {
+  color: #fff;
+  margin-top: 37px;
+}
+.colortext {
+  color: #e27b3a;
+}
+.footer-logo {
+  width: 48px;
+  height: 51px;
+}
+.footer-sec-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -96px;
+}
+.footer-sec-block h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.soc {
+  margin-right: 15px;
+}
+.footer-three-block p {
+  color: #fff;
+  text-align: end;
+  margin-top: 37px;
 }
